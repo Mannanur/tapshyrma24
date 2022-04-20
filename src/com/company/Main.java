@@ -16,14 +16,14 @@ public class Main {
 //        System.out.println(arrayList);
 //        System.out.println(linkedList);
 
-        sortArray(arrayList);
-        sortLinked(linkedList);
+        sort(arrayList);
+        sort(linkedList);
     }
-    static void sortArray (List list) {
+    static void sort (ArrayList list) {
         Collections.sort(list);
         System.out.println(list);
     }
-    static void sortLinked (List list) {
+    static void sort (LinkedList list) {
         Collections.sort(list);
         System.out.println(list);
     }
